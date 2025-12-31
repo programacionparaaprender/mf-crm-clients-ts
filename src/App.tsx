@@ -9,10 +9,10 @@ import { User } from "./types";
 import UserList from "./components/UserList";
 
 const initialUsers: User[] = [
-  { nombre: 'Juan', apellido: 'Pérez', documento: '12345678', score: 85 },
-  { nombre: 'María', apellido: 'Gómez', documento: '87654321', score: 92 },
-  { nombre: 'Carlos', apellido: 'López', documento: '11223344', score: 78 },
-  { nombre: 'Ana', apellido: 'Martínez', documento: '55667788', score: 88 },
+  { id:1, nombre: 'Juan', apellido: 'Pérez', documento: '12345678', score: 85 },
+  { id:2, nombre: 'María', apellido: 'Gómez', documento: '87654321', score: 92 },
+  { id:3, nombre: 'Carlos', apellido: 'López', documento: '11223344', score: 78 },
+  { id:4, nombre: 'Ana', apellido: 'Martínez', documento: '55667788', score: 88 },
 ];
 
 const App = () => (

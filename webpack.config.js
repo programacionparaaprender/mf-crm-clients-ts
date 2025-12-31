@@ -48,7 +48,8 @@ module.exports = {
         filename: "remoteEntry.js",
         remotes: {},
         exposes: {
-          "./ColorList": "./src/components/ColorList.tsx"
+          "./ColorList": "./src/components/ColorList.tsx",
+          "./UserList": "./src/components/UserList.tsx"
         },
         shared: {
           ...deps,
