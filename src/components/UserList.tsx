@@ -200,7 +200,7 @@ const UserList: React.FC<UserListProps> = ({ lista }) => {
       {showForm && <div className="modal-backdrop fade show"></div>}
 
       <div className="card-body">
-        <table className="table table-striped table-hover">
+        <table className="table table-dark">
           <thead>
             <tr>
               <th>Nombre</th>
