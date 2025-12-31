@@ -1,0 +1,21 @@
+{
+  "title": "Welcome to react using react-i18next",
+  "description": {
+    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+    "part2": "Switch language between english and german using buttons above."
+  },
+  "inicio": "Home",
+    "maestria":"Master",
+    "caracteristicas": "Features",
+    "precio": "Pricing",
+    "titulo1": "Light mask",
+    "titulo2": "Super light mask",
+    "titulo3": "Strong mask",
+    "Componente_local": "Local component",
+    "Componente_remoto": "Remote component",
+    "logout":"Logout",
+    "vieja":"Vieja",
+    "users":"Clean Arquitecture",
+    "presentacion":"Presentation",
+  "colorpicker": "Color Picker"
+}

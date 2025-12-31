@@ -1,0 +1,48 @@
+{
+  "name": "mf-color-list",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "serve:dist": "npx serve dist -l 3002",
+    "start": "webpack serve --mode development --open",
+    "start:live": "webpack serve --mode development --hot --live-reload"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jack Herrington",
+    "email": "jherr@pobox.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-runtime": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.0",
+    "@babel/preset-typescript": "^7.28.5",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-i18next": "^7.8.3",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "postcss": "^8.4.41",
+    "postcss-loader": "^7.3.0",
+    "style-loader": "^3.3.4",
+    "typescript": "^5.9.3",
+    "webpack": "^5.97.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.26.0",
+    "i18next": "^25.6.3",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "i18next-http-backend": "^3.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^16.4.0",
+    "react-router-dom": "^7.9.6",
+    "sweetalert2": "^11.12.0"
+  }
+}
