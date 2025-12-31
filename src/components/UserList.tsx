@@ -5,7 +5,12 @@ interface UserListProps {
   lista: User[];
 }
 
-const UserList: React.FC<UserListProps> = ({ lista }) => {
+const UserList: React.FC<UserListProps> = ({ lista = [
+  { id:1, nombre: 'Juan', apellido: 'Pérez', documento: '12345678', score: 85 },
+  { id:2, nombre: 'María', apellido: 'Gómez', documento: '87654321', score: 92 },
+  { id:3, nombre: 'Carlos', apellido: 'López', documento: '11223344', score: 78 },
+  { id:4, nombre: 'Ana', apellido: 'Martínez', documento: '55667788', score: 88 },
+] }) => {
   const [users, setUsers] = useState<User[]>(lista);
   const [editingUser, setEditingUser] = useState<User | null>(null);
   const [showForm, setShowForm] = useState(false);

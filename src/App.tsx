@@ -17,7 +17,7 @@ const initialUsers: User[] = [
 
 const App = () => (
   <div className="container">
-    <UserList lista={initialUsers} />
+    <UserList />
   </div>
 );
 // Usar createRoot en lugar de ReactDOM.render
