@@ -5,7 +5,7 @@ const deps = require("./package.json").dependencies;
 module.exports = {
 
     output: {
-      publicPath: "https://mf-crm-clients-ts-ts2.netlify.app/",
+      publicPath: "mf-crm-clients-ts.netlify.app/",
       //publicPath: "http://localhost:3002/",
       //publicPath: "https://fantastic-mf-crm-clients-ts.netlify.app/",
     },
