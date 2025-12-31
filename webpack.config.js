@@ -44,7 +44,7 @@ module.exports = {
   
     plugins: [
       new ModuleFederationPlugin({
-        name: "mf_colorlist",
+        name: "mf_crm_clients",
         filename: "remoteEntry.js",
         remotes: {},
         exposes: {
